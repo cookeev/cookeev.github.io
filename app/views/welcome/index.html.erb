@@ -1,2 +1,39 @@
-<h1>Hello, Rails!</h1>
-<%= link_to 'My Blog', controller: 'articles' %>
+<div class="outer-wrapper">
+	<div class="overlay">
+		<header class="header">
+			<nav class="main-navigation">
+				<ul>
+					<li><a href="/">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="projects.html">PROJECTS</a></li>
+					<li><a href="resume.pdf">CV</a></li>
+          <%= link_to 'BLOG', controller: 'articles' %>
+				</ul>
+			</nav>
+		</header>
+		<div class="inner-wrapper">
+			<div class="title-area">
+				<h1>
+					<a href="/">EVAN COOKE</a>
+				</h1>
+				<p>PRODUCT @ CO EVERYWHERE</p>
+				<div class="contact-info">
+					<div class="site-location">
+						<a href="//maps.google.com/maps?q=,Boston, MA">
+							<span>BOSTON, MA</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<nav class="social">
+				<ul>
+					<li><a href="http://www.twitter.com/evancooke" target="_blank">Twitter</a></li>
+					<li><a href="http://www.linkedin.com/cookeev" target="_blank">Linkedin</a></li>
+					<li><a href="http://www.facebook.com/evan.cooke" target="_blank">Facebook<a/></li>
+				</ul>
+			</nav>
+		</footer>
+	</div>
+</div>
