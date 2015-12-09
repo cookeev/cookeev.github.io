@@ -1,0 +1,3 @@
+# Ignore all logriles and tempfiles
+/log/*.log
+/tmp
