@@ -45,6 +45,7 @@ body {
 	font-size: 16px;
 	padding-left: 14px;
 	padding-right: 14px;
+	cursor: pointer;
 }
 .inner-wrapper {
 	position: absolute;
@@ -133,74 +134,39 @@ body {
 	background-size: cover;
 	display: inherit;
 }
-// .work {
-// 	background-color: rgb(176, 20, 35);
-// 	color: white;
-// 	font-size: 14px;
-// 	line-height: 16px;
-// 	padding: 30px;
-// }
-// .work h1 {
-// 	font-size: 14px;
-// 	font-weight: 300;
-// }
-// .chapter-1 {
-// 	background-color: #31353b;
-// 	color: white;
-// 	font-size: 14px;
-// 	line-height: 16px;
-// 	padding: 30px;
-// }
-// .chapter-2 {
-// 	background-color: navy;
-// 	color: white;
-// 	font-size: 14px;
-// 	line-height: 16px;
-// 	padding: 30px;
-// }
-// .chapter-3 {
-// 	background-color: silver;
-// 	color: white;
-// 	font-size: 14px;
-// 	line-height: 16px;
-// 	padding: 30px;
-// }
-// .chapter-3 img {
-// 	width: 67%;
-// }
-// @media (max-width: 520px) {
-// 	.main-navigation {
-//       padding-top: 1.75rem;
-//       padding-bottom: 1.5625rem;
-//       font-size: 1rem; }
-//       .main-navigation ul {
-//         background: transparent;
-//         position: relative;
-//         width: auto;
-//         list-style-type: none;
-//         margin: 0;
-//         width: auto;
-//         overflow: auto;
-//         -webkit-transform: none;
-//         -ms-transform: none;
-//         -moz-transform: none;
-//         -o-transform: none;
-//         transform: none;
-//         visibility: visible;
-//         padding-top: 0;
-//         padding-bottom: 0; }
-//         .main-navigation ul li {
-//           display: inline-block;
-//           margin-left: 1.25rem;
-//           width: auto;
-//           font-size: 1rem;
-//           text-align: left;
-//           padding: 0; }
-//           .main-navigation ul li a {
-//             color: black;
-//             display: inline-block;
-//             border-bottom: 0.1875rem solid transparent;
-//             width: auto;
-//             height: auto; }
-//             .main-navigation ul li a:hover {
-//               border-bottom: 0.1875rem solid #e51843; } }
+@media (max-width: 520px) {
+	.main-navigation {
+      padding-top: 1.75rem;
+      padding-bottom: 1.5625rem;
+      font-size: 1rem; }
+      .main-navigation ul {
+        background: transparent;
+        position: relative;
+        width: auto;
+        list-style-type: none;
+        margin: 0;
+        width: auto;
+        overflow: auto;
+        -webkit-transform: none;
+        -ms-transform: none;
+        -moz-transform: none;
+        -o-transform: none;
+        transform: none;
+        visibility: visible;
+        padding-top: 0;
+        padding-bottom: 0; }
+        .main-navigation ul li {
+          display: inline-block;
+          margin-left: 1.25rem;
+          width: auto;
+          font-size: 1rem;
+          text-align: left;
+          padding: 0; }
+          .main-navigation ul li a {
+            color: black;
+            display: inline-block;
+            border-bottom: 0.1875rem solid transparent;
+            width: auto;
+            height: auto; }
+            .main-navigation ul li a:hover {
+              border-bottom: 0.1875rem solid #e51843; } }
