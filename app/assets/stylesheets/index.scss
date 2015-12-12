@@ -112,6 +112,27 @@ body {
 	text-decoration: none;
 	color: white;
 }
+.twitter {
+	width: 47px;
+	height: 39px;
+	background: url(/twitterlogo.png);
+	background-size: cover;
+	display: inherit;
+}
+.linkedin {
+	width: 40px;
+	height: 40px;
+	background: url(/linkedin.png);
+	background-size: cover;
+	display: inherit;
+}
+.github {
+	width: 42px;
+	height: 41px;
+	background: url(/github.png);
+	background-size: cover;
+	display: inherit;
+}
 // .work {
 // 	background-color: rgb(176, 20, 35);
 // 	color: white;
