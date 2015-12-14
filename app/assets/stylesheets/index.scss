@@ -46,6 +46,8 @@ body {
 	padding-left: 14px;
 	padding-right: 14px;
 	cursor: pointer;
+	z-index: 99999;
+	color: white;
 }
 .inner-wrapper {
 	position: absolute;
@@ -80,6 +82,11 @@ body {
 }
 .contact-info span {
 	letter-spacing: 1px;
+	color: white;
+	text-decoration: none;
+}
+.site-location a {
+	text-decoration: none;
 }
 .footer {
 	display: block;
