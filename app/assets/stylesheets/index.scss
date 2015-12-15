@@ -20,7 +20,6 @@ body {
 .overlay {
 	width: 100%;
 	height: 100%;
-	z-index: -1;
 	position: absolute;
 	background-color: rgba(0,0,0,.2);
 }
@@ -32,6 +31,8 @@ body {
 	font-weight: 400;
 	text-decoration: none;
 	list-style-type: none;
+	position: relative;
+	z-index: 1;
 }
 .main-navigation {
 	display: block;
@@ -56,6 +57,7 @@ body {
 	height: 100%;
 	top: 0;
 	left: 0;
+	z-index: -1;
 }
 .title-area {
 	text-align: center;
