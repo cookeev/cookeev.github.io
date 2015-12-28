@@ -2,6 +2,7 @@
 	body {
 		text-align: center;
 		color: white;
+		margin: 0;
 	}
 	.wrapper {
 		position:fixed;
@@ -51,6 +52,8 @@
   	color: white;
 	}
 	.about {
+		font-family: 'Oxygen', sans-serif;
+		font-weight: 300;
 		width: 28%;
 		min-width: 300px;
 		height: intrinsic;
@@ -104,6 +107,7 @@
 		padding-top: 10px;
 	}
 	.chapter-2 {
+		font-family: 'Oxygen', sans-serif;
 		position:relative;
 		left:0;
 		right:0;
@@ -117,15 +121,18 @@
 		padding: 30px;
 	}
 	.chapter-3 {
+		font-family: 'Oxygen', sans-serif;
 		position:relative;
-		background:blue;
+		background: #4C4F51;
 		left:0;
 		right:0;
 		padding:10px;
 		top:100px;
 		z-index:2;
+		font-family: 'Oxygen'
 	}
 	.chapter-4 {
+		font-family: 'Oxygen', sans-serif;
 		position:relative;
 		background:grey;
 		left:0;
