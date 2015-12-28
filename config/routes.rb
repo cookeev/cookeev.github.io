@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   resources :articles
   # You can have the root of your site routed with "root"
   root 'welcome#index'
-  get 'projects' => 'welcome#projects'
+  get 'projects' => 'projects#index'
   get 'blog' => 'articles#index'
 
   # Example of regular route:
