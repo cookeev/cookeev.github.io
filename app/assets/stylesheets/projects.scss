@@ -92,7 +92,63 @@
 		border-radius: 120px;
 		box-shadow: 1px 0px 16px 2px rgba(93,105,117,0.4);
 	}
+	.social-icons {
+  	display: block;
+  	color: white;
+  	top: auto;
+  	left: auto;
+  	margin: 0 auto;
+  }
+  .social-icons ul {
+  	text-decoration: none;
+  	display: block;
+  	float: left;
+  	width: 100%;
+  	padding: inherit;
+  }
+  .social-icons li {
+  	display: inline-block;
+  	margin: 10px;
+  }
+  .social-icons a {
+  	text-decoration: none;
+  	color: white;
+  }
+  .twitter {
+  	width: 47px;
+  	height: 39px;
+  	background: url(/twitterlogo.png);
+  	background-size: cover;
+  	display: inherit;
+  }
+  .linkedin {
+  	width: 40px;
+  	height: 40px;
+  	background: url(/linkedin.png);
+  	background-size: cover;
+  	display: inherit;
+  }
+  .github {
+  	width: 42px;
+  	height: 41px;
+  	background: url(/github.png);
+  	background-size: cover;
+  	display: inherit;
+  }
 	.projects-link {
+		width: 28%;
+		min-width: 300px;
+		margin: 0 auto;
+		top: 275px;
+		position: relative;
+		z-index: 10000;
+		font-family: 'Oxygen';
+		font-size: 18px;
+		font-weight: 300
+	}
+	.projects-link a {
+		text-decoration: none;
+		color: white;
 	}
 	.chapter-1 {
 		position:relative;
