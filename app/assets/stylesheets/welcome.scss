@@ -43,6 +43,9 @@
   	position: relative;
     list-style: none;
   }
+  .header ul {
+    padding: 0;
+  }
   .main-navigation li {
     display: inline-block;
   }
@@ -76,6 +79,9 @@
   	margin-bottom: 10px;
   	letter-spacing: 1px;
   	font-weight: normal;
+    border: 8px solid white;
+    padding: 30px 40px;
+    display: inline-block;
   }
   .job {
   	letter-spacing: 1px;
