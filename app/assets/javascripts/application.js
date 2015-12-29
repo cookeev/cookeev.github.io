@@ -14,3 +14,13 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+$(window).scroll(function() {
+    if ($(this).scrollTop()>0)
+     {
+        $('.header').fadeOut();
+     }
+    else
+     {
+      $('.header').fadeIn();
+     }
+ });
