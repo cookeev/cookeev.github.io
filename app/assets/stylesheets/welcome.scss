@@ -176,13 +176,11 @@
   }
   @media (max-width: 520px) {
     .main-navigation {
-      margin: 0 auto;
-      position: relative;
     }
     .main-navigation ul {
   		position: absolute;
   		display: none;
-      margin: 0;
+      margin: 0 auto;
       padding: 0;
   	}
   	/*Create vertical spacing*/
@@ -190,7 +188,9 @@
   		margin-bottom: 1px;
   	}
     .main-navigation a {
-    	display:block;
+      margin: 0 auto;
+      padding: 0;
+      display:block;
     	min-width:140px;
     	height: 50px;
     	text-align: center;
