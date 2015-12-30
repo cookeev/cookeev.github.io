@@ -154,40 +154,59 @@
   	background-size: cover;
   	display: inherit;
   }
+    /*Style 'show menu' label button and hide it by default*/
+  .show-menu {
+  	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  	text-decoration: none;
+  	color: #fff;
+  	background: #19c589;
+  	text-align: center;
+  	padding: 10px 0;
+  	display: none;
+  }
+
+  /*Hide checkbox*/
+  input[type=checkbox]{
+      display: none;
+  }
+
+  /*Show menu when invisible checkbox is checked*/
+  input[type=checkbox]:checked ~ #menu{
+      display: block;
+  }
   @media (max-width: 520px) {
-  	.main-navigation {
-        padding-top: 1.75rem;
-        padding-bottom: 1.5625rem;
-        font-size: 1rem; }
-        .main-navigation ul {
-          background: transparent;
-          position: relative;
-          width: auto;
-          list-style-type: none;
-          margin: 0;
-          width: auto;
-          overflow: auto;
-          -webkit-transform: none;
-          -ms-transform: none;
-          -moz-transform: none;
-          -o-transform: none;
-          transform: none;
-          visibility: visible;
-          padding-top: 0;
-          padding-bottom: 0; }
-          .main-navigation ul li {
-            display: inline-block;
-            margin-left: 1.25rem;
-            width: auto;
-            font-size: 1rem;
-            text-align: left;
-            padding: 0; }
-            .main-navigation ul li a {
-              color: black;
-              display: inline-block;
-              border-bottom: 0.1875rem solid transparent;
-              width: auto;
-              height: auto; }
-              .main-navigation ul li a:hover {
-                border-bottom: 0.1875rem solid #e51843; } }
+    .main-navigation {
+      margin: 0 auto;
+      position: relative;
+    }
+    .main-navigation ul {
+  		position: absolute;
+  		display: none;
+      margin: 0;
+      padding: 0;
+  	}
+  	/*Create vertical spacing*/
+  	.main-navigation li {
+  		margin-bottom: 1px;
+  	}
+    .main-navigation a {
+    	display:block;
+    	min-width:140px;
+    	height: 50px;
+    	text-align: center;
+    	line-height: 50px;
+    	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    	color: #fff;
+    	background: #2f3036;
+    	text-decoration: none;
+    }
+    /*Make all menu links full width*/
+  	.main-navigation ul li, li a {
+  		width: 100%;
+  	}
+  	/*Display 'show menu' link*/
+  	.show-menu {
+  		display:block;
+	  }
+  }
 }
