@@ -14,7 +14,8 @@
 		right:0;
 		top:0;
 		height:100px;
-		background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(http://en.amazinghvar.com/wp-content/uploads/2014/07/classic-sailing.jpg);
+		// background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(http://en.amazinghvar.com/wp-content/uploads/2014/07/classic-sailing.jpg);
+		background: #31353b;
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
@@ -175,7 +176,7 @@
 		padding:10px;
 		top:100px;
 		z-index:2;
-		background-color: #31353b;
+		//background-color: #31353b;
 		color: white;
 		font-size: 18px;
 		line-height: 16px;
@@ -183,9 +184,14 @@
 	}
 	.chapter-2 a {
 		text-decoration: none;
+		color: white;
 	}
 	.chapter-2 img {
 		width: 67%;
+	}
+	.chapter-2 p {
+		padding-right: 3em;
+		padding-left: 3em;
 	}
 	.chapter-3 {
 		font-family: 'Oxygen', sans-serif;
@@ -201,6 +207,7 @@
 	}
 	.chapter-3 a {
 		text-decoration: none;
+		color: white;
 	}
 	.chapter-3 img {
 		width: 67%;
@@ -222,16 +229,21 @@
 	}
 	.chapter-4 a {
 		text-decoration: none;
+		color: white;
 	}
 	.chapter-4 img {
 		width: 67%;
+	}
+	.chapter-4 p {
+		padding-right: 3em;
+		padding-left: 3em;
 	}
 	/*Style 'show menu' label button and hide it by default*/
 	.show-menu {
 		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 		text-decoration: none;
 		color: #fff;
-		background: #19c589;
+		background: #4C4F51;
 		text-align: center;
 		padding: 10px 0;
 		display: none;
