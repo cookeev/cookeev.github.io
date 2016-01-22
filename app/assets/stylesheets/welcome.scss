@@ -175,7 +175,7 @@
       display: block;
   }
   @media (max-width: 720px) {
-    
+
   }
   @media (max-width: 520px) {
     .main-navigation {
@@ -189,6 +189,7 @@
   	/*Create vertical spacing*/
   	.main-navigation li {
   		margin-bottom: 1px;
+      width: 100%;
   	}
     .main-navigation a {
       margin: 0 auto;
@@ -210,7 +211,11 @@
   	/*Display 'show menu' link*/
   	.show-menu {
   		display:block;
+      width: 100%;
 	  }
+    #menu {
+      width: 100%;
+    }
     .title {
       font-size: 36px;
     }
