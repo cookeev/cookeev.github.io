@@ -238,6 +238,32 @@
 		padding-right: 3em;
 		padding-left: 3em;
 	}
+	.chapter-5 {
+		font-family: 'Oxygen', sans-serif;
+		position:relative;
+//		background:grey;
+		left:0;
+		right:0;
+		padding:10px;
+		top:100px;
+		z-index:2;
+		background-color: #C5C6C7;
+		color: white;
+		line-height: 16px;
+		padding: 30px;
+		font-size: 18px;
+	}
+	.chapter-5 a {
+		text-decoration: none;
+		color: white;
+	}
+	.chapter-5 img {
+		width: 67%;
+	}
+	.chapter-5 p {
+		padding-right: 3em;
+		padding-left: 3em;
+	}
 	/*Style 'show menu' label button and hide it by default*/
 	.show-menu {
 		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
