@@ -174,10 +174,12 @@
   input[type=checkbox]:checked ~ #menu{
       display: block;
   }
-  @media (max-width: 720px) {
-
+@media (max-width: 820px) {
+  .title {
+    font-size: 80px;
   }
-  @media (max-width: 520px) {
+}
+@media (max-width: 520px) {
     .main-navigation {
     }
     .main-navigation ul {
